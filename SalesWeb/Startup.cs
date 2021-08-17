@@ -67,7 +67,7 @@ namespace SalesWeb
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Departments}/{action=Index}/{id?}");
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
